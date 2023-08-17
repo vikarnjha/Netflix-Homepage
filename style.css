@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: rgb(255,255,255);
+    font-family: "Poppins", sans-serif;
+  }
+.bodyContainer {
+  background-image:url(/ico/bg1.jpg);
+  /* filter: brightness(90%); */
+  height: 96vh;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.navRight {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.languageSelector {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+  width: fit-content;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+  height: fit-content;
+  color: white;
+  background-color: transparent;
+}
+.logo {
+  margin-top: 15px;
+  width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+}
+.signin{
+    color: #ffffff;
+    background-color: #E50914;
+    width: fit-content;
+    height: fit-content;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-top: 15px;
+    border-color: rgba(128,128,128,0.7);
+}
+select{
+  border: none;
+  background-color: transparent;
+  appearance: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+option{
+  color: black;
+}
