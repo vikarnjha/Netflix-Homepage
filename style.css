@@ -39,7 +39,7 @@ nav {
   background: transparent;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 6px;
+  padding: 9px;
   cursor: pointer;
   margin-top: 16px;
   height: fit-content;
@@ -58,11 +58,12 @@ nav {
   width: fit-content;
   height: fit-content;
   font-weight: bold;
-  padding: 0.5rem 1rem;
+  padding: 0.65rem 1rem;
   border-radius: 3px;
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 15px;
   border-color: rgba(128, 128, 128, 0.7);
+  cursor: pointer;
 }
 select {
   border: none;
@@ -70,7 +71,62 @@ select {
   appearance: none;
   color: #ffffff;
   font-weight: bold;
+  width: inherit;
+  cursor: pointer;
 }
 option {
   color: black;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh;
+}
+h1{
+  font-size: 3rem;
+    font-weight: 750;
+    margin: auto;
+    color: rgb(255,255,255);
+}
+p{
+  margin: 1rem;
+  font-size: 24px;
+  font-weight: 400;
+}
+h3{
+  font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    margin: 0.5rem;
+}
+button{
+  color: #ffffff;
+  background-color: #e50914;
+  width: 100%;
+  height: 100%;
+  font-weight: bold;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 24px;
+  margin-left: 5px;
+  border-color: rgba(128, 128, 128, 0.7);
+  cursor: pointer;
+}
+.getStart{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+.email{
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 18px 150px 18px 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
 }
