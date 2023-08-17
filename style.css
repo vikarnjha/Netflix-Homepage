@@ -28,6 +28,7 @@ nav {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-right: 10%;
 }
 .languageSelector {
   display: flex;
@@ -49,6 +50,7 @@ nav {
   width: 12rem;
   height: 5rem;
   color: rgb(229, 9, 20);
+  margin-left: 10%;
 }
 .signin {
   color: #ffffff;
