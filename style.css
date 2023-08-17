@@ -1,12 +1,12 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    color: rgb(255,255,255);
-    font-family: "Poppins", sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
 .bodyContainer {
-  background-image:url(/ico/bg1.jpg);
+  background-image: url(/ico/bg1.jpg);
   /* filter: brightness(90%); */
   height: 96vh;
 }
@@ -38,30 +38,29 @@ nav {
   background-color: transparent;
 }
 .logo {
+  width: 12rem;
+  height: 5rem;
+  color: rgb(229, 9, 20);
+}
+.signin {
+  color: #ffffff;
+  background-color: #e50914;
+  width: fit-content;
+  height: fit-content;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  font-size: 12px;
   margin-top: 15px;
-  width: 9.25rem;
-    height: 2.5rem;
-    color: rgb(229,9,20);
+  border-color: rgba(128, 128, 128, 0.7);
 }
-.signin{
-    color: #ffffff;
-    background-color: #E50914;
-    width: fit-content;
-    height: fit-content;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    border-radius: 3px;
-    font-size: 12px;
-    margin-top: 15px;
-    border-color: rgba(128,128,128,0.7);
-}
-select{
+select {
   border: none;
   background-color: transparent;
   appearance: none;
   color: #ffffff;
   font-weight: bold;
 }
-option{
+option {
   color: black;
 }
