@@ -6,7 +6,15 @@
   font-family: "Poppins", sans-serif;
 }
 .bodyContainer {
-  background-image: url(/ico/bg1.jpg);
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.8) 0,
+      rgba(0, 0, 0, 0) 60%,
+      rgba(0, 0, 0, 0.8) 100%
+    ),
+    url(/ico/bg1.jpg);
+  background-position: center;
+  background-size: cover;
   /* filter: brightness(90%); */
   height: 96vh;
 }
