@@ -16,7 +16,7 @@
   background-position: center;
   background-size: cover;
   /* filter: brightness(90%); */
-  height: 96vh;
+  height: 100vh;
 }
 nav {
   display: flex;
